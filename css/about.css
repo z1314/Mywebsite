@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* header */
+header nav{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+}
+h1{
+    float: left;
+    padding: 15px 0 15px 20px;
+}
+header nav ul{
+    float:right;
+}
+header nav ul li{
+    display: inline-block;
+    width: 100px;
+    list-style: none;
+}
+header nav ul li a:hover{
+    color: #f7c08a;
+}
+header nav ul li >a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* section-one */
+.section-one{
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+.section-one-left{
+    float: left;
+    width: 50%;
+}
+.section-one-left h2{
+    font-size: 40px;
+}
+.section-one-left p{
+    color: #333;
+    margin-top: 30px;
+}
+.section-one-left h2 span{
+    color: #f7c08a;
+}
+.section-one-right{
+    float: right;
+    width: 50%;
+}
+.section-one-right img{
+    width: 80%;
+    border-radius: 50%;
+}
+/* section-two */
+.section-two{
+    width: 100%;
+    padding: 50px 10px;
+    background-image: url('../img/04.jpg');
+    background-size: contain;
+   
+}
+.section-two h3{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+.section-person{
+    width: 100%;
+    padding: 20px;
+    background-color:#f7c08a;
+    border-radius: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.section-person img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.section-person >p{
+    overflow: hidden;
+    height: 100%;
+    padding: 20px 10px;
+    color: #333;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+}
+

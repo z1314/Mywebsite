@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* header */
+header nav{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+}
+h1{
+    float: left;
+    padding: 15px 0 15px 20px;
+}
+header nav ul{
+    float:right;
+}
+header nav ul li{
+    display: inline-block;
+    width: 100px;
+    list-style: none;
+}
+header nav ul li a:hover{
+    color: #f7c08a;
+}
+header nav ul li >a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* form */
+form{
+    width: 100%;
+    padding:50px 10px;
+}
+form p+p{
+    margin-top: 30px;
+    /* background-color: blue; */
+}
+form label{
+    display: inline-block;
+    color: #333;
+    width: 10%;
+    text-align: center;
+}
+
+form input{
+    width: 90%;
+    height: 37px;
+    border: 1px solid #ddd;
+    /* background-color: red; */
+}
+form textarea{
+    float: right;
+    height: 100px;
+    width: 90%;
+    border: 1px solid #ddd;
+    resize: none;
+}
+.fankui{
+    float: left;
+    color: #333;
+    width: 10%;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+form button{
+    font-size: 18px;
+    padding: 13px 20px;
+    background-color: #333;
+    margin-left: 10%;
+    margin-top: 30px;
+    color: #fff;
+}
+form button:hover{
+    background-color: #f7c08a;
+}
+/* address */
+address{
+    overflow: hidden;
+    padding: 30px;
+    background-color: #444;
+    color: #fff;
+}
+address >div{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+address >div>p{
+    margin-top: 30px;
+}
+address img{
+    width: 60px;
+    height: 60px;
+}
+/* footer */
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+}
